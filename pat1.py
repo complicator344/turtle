@@ -1,14 +1,14 @@
 import turtle
 
-patrickwayup = 2
+patrickwayup = 100
 
-patrickway = 100
+patrickway = 200
 turtle.shape("turtle")
-turtle.speed(4)
-while patrickwayup < 100:
+turtle.speed(5)
+while patrickwayup < 200:
     turtle.forward(patrickway)
-    patrickwayup = patrickwayup + 2
-    turtle.left(90)
+    patrickwayup = patrickwayup + 10
+    turtle.left(97)
     turtle.forward(patrickwayup)
-    turtle.left(90)
+    turtle.left(97)
 raw_input ("Press any key to exit")
